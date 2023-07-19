@@ -3,6 +3,7 @@
  * jack_bauer - prints every minute of the day of jack bauer
  * Return: ...
  */
+
 void jack_bauer(void)
 {
 	int a, b, c, d;
