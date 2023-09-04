@@ -45,7 +45,7 @@ void close_file(int file_read)
 }
 
 /**
- * @copy_file - Copies file content to another file.
+ * @main - Copies file content to another file.
  * @argument: The arguments.
  * @argument_copied: pointers to the arguments.
  *
@@ -56,7 +56,7 @@ void close_file(int file_read)
  * file_to cannot be created or written to - exit code 99.
  * file_to or file_from cannot be closed - exit code 100.
  */
-int copy_file(int argument, char *argument_copied[])
+int main(int argument, char *argument_copied[])
 {
 	int from_file, to_file, read1, write1;
 	char *buffer;
